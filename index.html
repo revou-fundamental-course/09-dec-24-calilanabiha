@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home" class="section-container">
+        <div class="banner">
+            <div class="slide" style="background-image: url('img/banner.jpg');">
+                <p>Welcome to Our Travel Agency</p>
+            </div>
+            <div class="slide" style="background-image: url('img/banner2.jpg');">
+                <p>Your Journey Begins Here</p>
+            </div>
+            <div class="slide" style="background-image: url('img/banner3.jpg');">
+                <p>Explore the World with Us</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="section-container">
+        <h2>Our Packages</h2>
+        <div class="package-list">
+            <div class="package">
+                <img src="img/beach-package.jpg" alt="Beach Getaway" class="package-img">
+                <p>Beach Getaway</p>
+            </div>
+            <div class="package">
+                <img src="img/mountain-package.jpg" alt="Mountain Adventure" class="package-img">
+                <p>Mountain Adventure</p>
+            </div>
+            <div class="package">
+                <img src="img/city-package.jpg" alt="City Tours" class="package-img">
+                <p>City Tours</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="section-container">
+        <h2>
+            <img src="img/contact-icon.png" alt="Contact Icon" class="icon">
+            Contact Us
+        </h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="destination">Travel Destination:</label>
+            <input type="text" id="destination" name="destination" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        Wanderlust created with love in 2024 💫. All rights reserved(✿◕‿◕✿).
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
